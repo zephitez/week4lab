@@ -1,6 +1,6 @@
 class Ingredient < ActiveRecord::Migration
   def change
-    create_table :users do |t|
+    create_table :ingredients do |t|
       t.string  :name
 
       t.timestamps

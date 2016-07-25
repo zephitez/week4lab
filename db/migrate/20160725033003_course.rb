@@ -1,6 +1,6 @@
 class Course < ActiveRecord::Migration
   def change
-    create_table :users do |t|
+    create_table :courses do |t|
       t.string  :title
 
 
